@@ -1,23 +1,12 @@
-@import url("header.css");
+@import url("./global/global.css");
+@import url("./utilidades/tipografia.css");
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
-:root {
-  --c12: #000000;
-  --c11: #111111;
-  --c10: #2E2E2E;
-  --w: #ffffff;
-  --fonte-primaria: "Poppins";
-  --fonte-secundaria: "Roboto";
-}
+@import url("./global/header.css");
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+/*utilidades*/
+@import url("./utilidades/componentes.css");
 
-a {
-  text-decoration-line: none;
-}
+/*home*/
+@import url("./home/introducao.css");
+
