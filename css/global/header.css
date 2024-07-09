@@ -23,12 +23,7 @@
 
 .header-menu a {
   display: inline-block;
-  list-style-type: none;
   color: var(--w);
-  font-family: var(--fonte-primaria);
-  font-size: 1.125rem;
-  font-weight: 400;
-  padding: 16px 0px;
   position: relative;
 }
 
