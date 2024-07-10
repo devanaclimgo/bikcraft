@@ -1,18 +1,4 @@
-/*Cores*/
-.bicicletas-lista h2,
-h3 {
-  color: var(--c11);
-}
 
-.bicicletas-lista h2 span {
-  color: var(--p1);
-}
-
-.bicicletas-lista h3 span {
-  color: var(--c8);
-}
-
-/*Estilização*/
 .bicicletas-lista {
   padding-top: 60px;
   padding-bottom: 120px;
@@ -20,11 +6,6 @@ h3 {
 
 .bicicletas-lista h2 {
   margin-bottom: 40px;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .bicicletas-lista ul {

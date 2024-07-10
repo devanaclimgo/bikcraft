@@ -7,13 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  box-sizing: border-box;
   align-items: center;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .introducao-conteudo {
@@ -23,16 +17,10 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  color: var(--w);
-}
-
-.introducao h1 span {
-  color: var(--p1);
 }
 
 .introducao p {
   margin-bottom: 40px;
-  color: var(--c5);
 }
 
 .introducao img {
