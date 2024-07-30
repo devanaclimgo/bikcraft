@@ -9,7 +9,7 @@ function formularioEnviado(resposta) {
 }
 
 function enviarFormulario(event) {
-  event.prevetDefault();
+  event.preventDefault();
   const botao = document.querySelector("form button");
   botao.disabled = true;
   botao.innerText = "Enviando...";
@@ -19,7 +19,10 @@ function enviarFormulario(event) {
   fetch("./enviar.php", {
     method: "POST", 
     body: data,
-  }).then(formularioEnviado);
+  }).then(formularioEnviado)
+  .catch((error) => {
+    console.error("Erro ao enviar formulário:", error);
+  });
 }
 
 formulario.addEventListener("submit", enviarFormulario);
